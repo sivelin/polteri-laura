@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:  0.5em 0.25em 0 0.25em;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #fff;
+	color: #fff;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	border-bottom: 1px solid #222;
+}
+
+section {
+	max-width: 800px;
+	background-color: #fff;
+}
+
+h1{
+	font-family:  'M PLUS 1p', sans-serif;
+	font-weight: 900;
+}
+
+h2 {
+	font-family:  'M PLUS 1p', sans-serif;
+	font-weight: 900;
+}
+
+p {
+	color: #555;
+}
+
+.schedule {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.event-block {
+	width: 100%;
+	margin-bottom: 1em;
+	border-top: 1px solid #222;
+}
+
+footer {
+	font-size: small;
+	background-color: #fff;
+	color: #FFAC46;
+	text-align: center;
+	padding: 1em;
+	bottom: 0;
+	width: 100%;
+}
+
+a {
+	color: green;
+	text-decoration: none;
+}
+
+a:hover {
+    transition: color 0.3s;
+	color: #333;
+}
+
+a:visited {
+  color: darkgreen;
+}
+
+.tag {
+	color: #FFAC46;
+}
+
+.house {
+	color: green;
+}
+
+.konzert {
+	color: #69A1AC;
+}
+
+.h3 {
+	float: left;
+}
+
+.event-title {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.info {
+	margin-top: 2.5em;
+}
+
+i {
+	font-size: small;
+}
